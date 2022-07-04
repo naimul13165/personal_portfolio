@@ -1,0 +1,310 @@
+     * {
+         padding: 0;
+         margin: 0;
+         font-family: sans-serif;
+     }
+     
+     .hero {
+         height: 100vh;
+         width: 100%;
+         background-image: url(naimul.jpg);
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+     }
+     
+     nav {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding-top: 45px;
+         padding-left: 8%;
+         padding-right: 8%;
+     }
+     
+     .logo {
+         color: rgb(45, 1, 49);
+         font-size: 35px;
+         letter-spacing: 1px;
+         cursor: pointer;
+     }
+     
+     span {
+         color: red;
+     }
+     
+     nav ul li {
+         list-style: none;
+         display: inline-block;
+         padding: 14px 30px;
+         font-size: 22px;
+         font-family: sans-serif;
+     }
+     
+     nav ul li a {
+         color: black;
+     }
+     
+     .btn {
+         color: rgb(7, 1, 32);
+         font-size: 30px;
+         letter-spacing: 1px;
+         font-family: sans-serif;
+         text-decoration: none;
+         font-weight: bold;
+     }
+     
+     nav ul li a {
+         text-decoration: none;
+         color: black;
+         font-family: sans-serif;
+         font-weight: bold;
+     }
+     
+     nav ul li a:hover {
+         color: rgb(6, 6, 179);
+     }
+     
+     span:hover {
+         color: rgb(4, 4, 112);
+         transition: .4s;
+     }
+     
+     .btn {
+         background-color: rgb(3, 30, 66);
+         color: white;
+         border: 2px solid transparent;
+         font-weight: bold;
+         padding: 8px 20px;
+         border-radius: 30px;
+     }
+     
+     .btn:hover {
+         transform: scale(1.2);
+     }
+     
+     h1 {
+         color: rgb(17, 6, 48);
+         margin: 20px 0px 20px;
+         font-size: 35px;
+     }
+     
+     h3 {
+         color: darkblue;
+         font-size: 25px;
+         margin-bottom: 40px;
+     }
+     
+     h4 {
+         color: rgb(0, 0, 0);
+         letter-spacing: 1px;
+         font-size: 23px;
+     }
+     
+     .aboutme {
+         padding-left: 110px;
+         padding-top: 80px;
+     }
+     
+     .newslatter {
+         padding-left: 110px;
+     }
+     
+     .newslatter form input:first-child {
+         display: inline-block;
+         width: 20%;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         padding-left: 10px;
+         border: 2px solid #f9004d;
+         outline: none;
+         border-radius: 10px;
+     }
+     
+     .newslatter form input:last-child {
+         position: absolute;
+         display: inline-block;
+         outline: none;
+         border: none;
+         padding: 10px 30px;
+         border-radius: 30px;
+         background-color: red;
+         color: white;
+     }
+     
+     .about {
+         width: 100%;
+         padding: 100px 0px;
+         background-color: white;
+     }
+     
+     .about img {
+         height: fit-content;
+         width: 450px;
+     }
+     
+     .about-text {
+         width: 550px;
+     }
+     
+     .main {
+         width: 1130px;
+         max-width: 100%;
+         margin: 0 auto;
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+     }
+     
+     .about-text h2 {
+         color: black;
+         font-size: 60px;
+         text-transform: capitalize;
+         margin-bottom: 20px;
+     }
+     
+     .about-text h5 {
+         color: rgb(24, 1, 48);
+         letter-spacing: 1px;
+         font-size: 30px;
+         margin-bottom: 25px;
+         text-transform: capitalize;
+     }
+     
+     .about-text p {
+         color: rgb(75, 4, 4);
+         letter-spacing: 0.90px;
+         line-height: 30px;
+         font-size: 22px;
+         font-style: italic;
+         font-family: 'Times New Roman';
+         margin-bottom: 45px;
+         font-weight: bold;
+     }
+     
+     button {
+         background-color: rgb(2, 2, 56);
+         color: rgb(238, 153, 164);
+         text-decoration: none;
+         border: 10px solid transparent;
+         font-weight: bold;
+         padding: 4px 15px;
+         border-radius: 21px;
+         font-size: 18px;
+     }
+     
+     button:hover {
+         background-color: rgb(102, 7, 86);
+         border: 2px solid rgb(17, 73, 196);
+         cursor: pointer;
+         transition: .4s;
+     }
+     
+     .service {
+         background: white;
+         width: 100%;
+         padding: 100px 20px;
+         margin: 0px;
+     }
+     
+     .title h2 {
+         color: black;
+         font-size: 60px;
+         width: 1130px;
+         margin: 30px auto;
+         margin-bottom: 60px;
+         text-align: center;
+     }
+     
+     .box {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         min-height: 400px;
+     }
+     
+     .card {
+         height: 360px;
+         width: 335px;
+         padding: 4px 10px;
+         background: rgb(243, 196, 196);
+         border-radius: 20px;
+         margin: 15px;
+         position: relative;
+         overflow: hidden;
+         text-align: center;
+     }
+     
+     h5 {
+         color: black;
+         font-size: 27px;
+         margin-bottom: 35px;
+         margin-top: 60px;
+     }
+     
+     .pra p {
+         color: rgb(5, 2, 73);
+         font-size: 20px;
+         line-height: 27px;
+         margin-bottom: 25px;
+         font-family: initial;
+         font-weight: bold;
+     }
+     
+     .button {
+         background: rgb(99, 12, 77);
+         font-size: 16px;
+         color: black;
+         text-decoration: none;
+         border: 5px solid transparent;
+         padding: 2px 10px;
+         font-weight: bold;
+         border-radius: 30px;
+         transition: .02s;
+     }
+     
+     .button:hover {
+         background-color: rgb(221, 38, 32);
+         border: 2px solid rgb(233, 20, 20);
+         cursor: pointer;
+     }
+     
+     .contact-me {
+         width: 100%;
+         height: 150px;
+         background: white;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+     }
+     
+     .contact-me p {
+         color: black;
+         font-size: 30px;
+         font-weight: bold;
+         margin-bottom: 30px;
+     }
+     
+     .contact-me .button-two {
+         background: rgb(99, 12, 77);
+         font-size: 16px;
+         color: black;
+         text-decoration: none;
+         border: 5px solid transparent;
+         padding: 2px 10px;
+         font-weight: bold;
+         border-radius: 30px;
+         transition: .02s;
+         margin-bottom: 20px;
+     }
+     
+     .button-two:hover {
+         background-color: rgb(221, 38, 32);
+         border: 2px solid rgb(233, 20, 20);
+         cursor: pointer;
+     }
+     
+     footer {
+         background: black;
+     }
